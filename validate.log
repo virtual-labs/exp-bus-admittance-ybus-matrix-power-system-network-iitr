@@ -1,0 +1,14 @@
+{
+  _: [],
+  f: [
+    '/home/runner/work/exp-bus-admittance-ybus-matrix-power-system-network-iitr/exp-bus-admittance-ybus-matrix-power-system-network-iitr/experiment-descriptor.json'
+  ],
+  files: [
+    '/home/runner/work/exp-bus-admittance-ybus-matrix-power-system-network-iitr/exp-bus-admittance-ybus-matrix-power-system-network-iitr/experiment-descriptor.json'
+  ],
+  '$0': 'validate'
+}
+Json Error: There are additional properties
+Json Error: must match "then" schema
+Failed while validating /home/runner/work/exp-bus-admittance-ybus-matrix-power-system-network-iitr/exp-bus-admittance-ybus-matrix-power-system-network-iitr/experiment-descriptor.json
+Error: Schema is Invalid

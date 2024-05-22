@@ -1,0 +1,58 @@
+{
+    "version": 2.0,
+    "questions":[
+		{
+			"question": "The output voltage of a log amplifier using BJT is measured between __________ junction.",
+			"answers": {
+				"a": "Base-collector",
+				"b": "Base-emitter",
+				"c": "Emitter-collector",
+				"d": "Emitter-ground"
+			},
+			"correctAnswer": "b"
+		},
+		{
+			"question": "In logarithmic signal compression __________.",
+			"answers": {
+				"a": "large and small voltages are compressed equally",
+				"b": "large voltages are compressed more than small voltages",
+				"c": "large voltages are compressed less than smaller voltages",
+				"d": "none of the above"
+			},
+			"correctAnswer": "b"
+		},
+		{
+			"question": "A log amplifier has _____ in the feedback loop.",
+			"answers": {
+				"a": "a diode",
+				"b": "a BJT",
+				"c": "a resistor",
+				"d": "either a diode or a BJT"
+			},
+			"correctAnswer": "d"
+		},
+		{
+			"question": "The log of a number is the _________.",
+			"answers": {
+				"a": "base to which the power must be raised to get that number",
+				"b": "power to which the base must be raised to get that number",
+				"c": "base of that number",
+				"d": "power of that number"
+			},
+			"correctAnswer": "b"
+		},
+		{
+			"question": "Which of the following functions does the antilog computation required to perform continuously with log amplifiers?",
+			"answers": {
+				"a": "ln(x)",
+				"b": "log(x)",
+				"c": "sinh(x)",
+				"d": "All of the above"
+			},
+			"correctAnswer": "d"
+		}
+	]
+}
+
+
+

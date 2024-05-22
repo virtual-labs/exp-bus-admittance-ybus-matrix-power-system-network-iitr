@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Y-BUS Matrix Formation</title>
+
+<link rel="stylesheet" type="text/css" href="styles.css">
+
+</head>
+<body>
+
+<div class="container">
+    <h2>Y-BUS Matrix Formation</h2>
+    <button onclick="showNetwork()">Network Diagram</button>
+    <div id="network"></div>
+    <button onclick="showNetworkDetails()">Network Details</button>
+    <button onclick="addLine()">Add Line</button>
+    <button onclick="deleteLine()">Delete Line</button>
+    <table id="branchData">
+        <thead style="display: none;"> <!-- Initially hide the table header -->
+            <tr>
+                <th>From Bus</th>
+                <th>To Bus</th>
+                <th>R</th>
+                <th>X</th>
+                
+            </tr>
+        </thead>
+        <tbody></tbody>
+    </table>
+    <button onclick="calculateDiagonal()">Calculate Ybus Element (Diagonal Element)</button>
+    <div id="resultdiagonal"></div>
+    <button onclick="calculatenonDiagonal()">Calculate Ybus Element (Non Diagonal Element)</button>
+    <div id="resultnondiagonal"></div>
+    <button onclick="calculateYbus()">Calculate Ybus Matrix</button>
+    <div id="resultYbus"></div>
+</div>
+
+
+<script src="script.js"></script>
+   
+<script src="../assets/js/iframeResize.js"></script></body>
+</html>
